@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<touchstone version="1.0">
+  <platform date="Oct 19, 2011 12:23:51 PM">
+    <plugin id="Core">
+      <factors />
+      <measures>
+        <measure id="MT" name="Movement time" help="The end time of the current trial" type="integer" />
+        <measure id="HIT" name="Success" help="Hit or Miss of the current trial" type="string" />
+        <measure id="time" name="Time from start" help="The time elapsed since the evaluation started, in milliseconds" type="integer" />
+        <measure id="trialStarted" name="Time when trial started" help="The time when the trial started" type="integer" />
+        <measure id="trialEnded" name="Time when trial ended" help="The time when the trial ended" type="integer" />
+        <measure id="currentTime" name="Instantaneous time" help="The current time when a line is logged" type="integer" />
+        <measure id="experiment" name="Experiment name" help="The name name_experiment of the experiment found in &lt;experiment id=name_experiment .../&gt;" type="string" />
+        <measure id="participant" name="Experiment participant" help="The id of the current participant found in the &lt;run id=id_participant.../&gt;" type="string" />
+        <measure id="block" name="Experiment block" help="The number of the current block" type="integer" />
+        <measure id="trial" name="Experiment trial" help="The number of the current trial" type="integer" />
+        <measure id="nbBlocks" name="Number of blocks for current participant" help="The number of blocks for current participant" type="integer" />
+        <measure id="nbTrials" name="Number of trials for current block" help="The number of trials for current block" type="integer" />
+        <measure id="inPractice" name="practice block" help="True if in practice, false otherwise" type="string" />
+        <measure id="Mouse.x" type="integer" />
+        <measure id="Mouse.y" type="integer" />
+        <measure id="Mouse.Left" type="integer" />
+        <measure id="Mouse.Middle" type="integer" />
+        <measure id="Mouse.Right" type="integer" />
+        <measure id="Mouse.Wheel" type="integer" />
+        <measure id="Keyboard.Back" type="integer" />
+        <measure id="Keyboard.Tab" type="integer" />
+        <measure id="Keyboard.Return" type="integer" />
+        <measure id="Keyboard.Control" type="integer" />
+        <measure id="Keyboard.Shift" type="integer" />
+        <measure id="Keyboard.Pause" type="integer" />
+        <measure id="Keyboard.Alt" type="integer" />
+        <measure id="Keyboard.Capital" type="integer" />
+        <measure id="Keyboard.Escape" type="integer" />
+        <measure id="Keyboard.Noconvert" type="integer" />
+        <measure id="Keyboard.Convert" type="integer" />
+        <measure id="Keyboard.PageDown" type="integer" />
+        <measure id="Keyboard.End" type="integer" />
+        <measure id="Keyboard.Space" type="integer" />
+        <measure id="Keyboard.PageUp" type="integer" />
+        <measure id="Keyboard.Up" type="integer" />
+        <measure id="Keyboard.At" type="integer" />
+        <measure id="Keyboard.Colon" type="integer" />
+        <measure id="Keyboard.Right" type="integer" />
+        <measure id="Keyboard.Circumflex" type="integer" />
+        <measure id="Keyboard.Home" type="integer" />
+        <measure id="Keyboard.Left" type="integer" />
+        <measure id="Keyboard.Down" type="integer" />
+        <measure id="Keyboard.Period" type="integer" />
+        <measure id="Keyboard.Slash" type="integer" />
+        <measure id="Keyboard.NumpadComma" type="integer" />
+        <measure id="Keyboard.Underscore" type="integer" />
+        <measure id="Keyboard.Minus" type="integer" />
+        <measure id="Keyboard.3" type="integer" />
+        <measure id="Keyboard.2" type="integer" />
+        <measure id="Keyboard.1" type="integer" />
+        <measure id="Keyboard.0" type="integer" />
+        <measure id="Keyboard.7" type="integer" />
+        <measure id="Keyboard.6" type="integer" />
+        <measure id="Keyboard.5" type="integer" />
+        <measure id="Keyboard.4" type="integer" />
+        <measure id="Keyboard.Semicolon" type="integer" />
+        <measure id="Keyboard.9" type="integer" />
+        <measure id="Keyboard.8" type="integer" />
+        <measure id="Keyboard.NumpadEqual" type="integer" />
+        <measure id="Keyboard.D" type="integer" />
+        <measure id="Keyboard.E" type="integer" />
+        <measure id="Keyboard.F" type="integer" />
+        <measure id="Keyboard.G" type="integer" />
+        <measure id="Keyboard.A" type="integer" />
+        <measure id="Keyboard.B" type="integer" />
+        <measure id="Keyboard.C" type="integer" />
+        <measure id="Keyboard.L" type="integer" />
+        <measure id="Keyboard.M" type="integer" />
+        <measure id="Keyboard.N" type="integer" />
+        <measure id="Keyboard.O" type="integer" />
+        <measure id="Keyboard.H" type="integer" />
+        <measure id="Keyboard.I" type="integer" />
+        <measure id="Keyboard.J" type="integer" />
+        <measure id="Keyboard.K" type="integer" />
+        <measure id="Keyboard.U" type="integer" />
+        <measure id="Keyboard.T" type="integer" />
+        <measure id="Keyboard.W" type="integer" />
+        <measure id="Keyboard.V" type="integer" />
+        <measure id="Keyboard.Q" type="integer" />
+        <measure id="Keyboard.P" type="integer" />
+        <measure id="Keyboard.S" type="integer" />
+        <measure id="Keyboard.R" type="integer" />
+        <measure id="Keyboard.Rbracket" type="integer" />
+        <measure id="Keyboard.Backslash" type="integer" />
+        <measure id="Keyboard.Y" type="integer" />
+        <measure id="Keyboard.X" type="integer" />
+        <measure id="Keyboard.Lbracket" type="integer" />
+        <measure id="Keyboard.Z" type="integer" />
+        <measure id="Keyboard.Numpad6" type="integer" />
+        <measure id="Keyboard.Numpad7" type="integer" />
+        <measure id="Keyboard.Numpad4" type="integer" />
+        <measure id="Keyboard.Numpad5" type="integer" />
+        <measure id="Keyboard.Numpad2" type="integer" />
+        <measure id="Keyboard.Numpad3" type="integer" />
+        <measure id="Keyboard.Numpad0" type="integer" />
+        <measure id="Keyboard.Numpad1" type="integer" />
+        <measure id="Keyboard.Decimal" type="integer" />
+        <measure id="Keyboard.Divide" type="integer" />
+        <measure id="Keyboard.Subtract" type="integer" />
+        <measure id="Keyboard.Mutliply" type="integer" />
+        <measure id="Keyboard.Add" type="integer" />
+        <measure id="Keyboard.Numpad8" type="integer" />
+        <measure id="Keyboard.Numpad9" type="integer" />
+        <measure id="Keyboard.F8" type="integer" />
+        <measure id="Keyboard.F7" type="integer" />
+        <measure id="Keyboard.F6" type="integer" />
+        <measure id="Keyboard.F5" type="integer" />
+        <measure id="Keyboard.F4" type="integer" />
+        <measure id="Keyboard.F3" type="integer" />
+        <measure id="Keyboard.F2" type="integer" />
+        <measure id="Keyboard.F1" type="integer" />
+        <measure id="Keyboard.Delete" type="integer" />
+        <measure id="Keyboard.F12" type="integer" />
+        <measure id="Keyboard.F11" type="integer" />
+        <measure id="Keyboard.F10" type="integer" />
+        <measure id="Keyboard.F9" type="integer" />
+        <measure id="Keyboard.Grave" type="integer" />
+        <measure id="Keyboard.Insert" type="integer" />
+        <measure id="Keyboard.Numlock" type="integer" />
+        <measure id="Keyboard.Scroll" type="integer" />
+        <measure id="Keyboard.Stop" type="integer" />
+      </measures>
+      <intertitles>
+        <intertitle id="Message" class="fr.inria.insitu.touchstone.run.exp.defaults.Message">
+          <constructor>
+            <arg type="java.lang.String" />
+          </constructor>
+        </intertitle>
+      </intertitles>
+      <blocks />
+      <criteria>
+        <criterion id="TimeOut" class="fr.inria.insitu.touchstone.run.endConditions.TimeOutCondition">
+          <constructor>
+            <arg type="int" />
+          </constructor>
+        </criterion>
+        <criterion id="Press" class="fr.inria.insitu.touchstone.run.endConditions.PressCondition">
+          <constructor>
+            <arg type="java.lang.String" />
+          </constructor>
+        </criterion>
+        <criterion id="Key" class="fr.inria.insitu.touchstone.run.endConditions.KeyCondition">
+          <constructor>
+            <arg type="int" />
+          </constructor>
+          <constructor>
+            <arg type="java.lang.String" />
+          </constructor>
+        </criterion>
+        <criterion id="Click" class="fr.inria.insitu.touchstone.run.endConditions.ClickCondition">
+          <constructor>
+            <arg type="java.lang.String" />
+          </constructor>
+        </criterion>
+      </criteria>
+    </plugin>
+  </platform>
+</touchstone>
+
